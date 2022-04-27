@@ -1,0 +1,224 @@
+@font-face {
+    font-family: haihai;
+    src: url(../media/AmericanCaptain-MdEY.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.body1820{
+    margin: 0;
+    border: 0;
+    scroll-behavior: smooth;
+}
+
+.bar820{
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+}
+.navigation820 a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-family: haihai;
+    padding-left: 30px;
+  
+}
+.main820{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    background: url(../media/232-2327600_france-fifa-world-cup-2018.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: haihai;
+    font-size: 8em;
+    color: white;
+    padding:4.5em 0 0 0.4em ;
+    box-shadow: inset 0 0 5em blue;
+}
+.sec1820{
+    background-color: rgba(104, 143, 202, 0.815);
+    width: 100%;
+    min-height: 92vh;
+}
+.s-1820{
+    box-sizing: border-box;
+   width: 21%;
+   height: 33em;
+   margin-left:9em ;
+   background-color: rgb(34, 34, 143);
+   border-radius: 2em;
+}
+.g-820{
+   box-sizing: border-box;
+   
+   width: 100%;
+   height: 25%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 2.5em;
+}
+.g-820 h1{
+    font-size: 80px;
+    font-family: haihai;
+    color: rgb(255, 255, 255);
+}
+.g-1-820{
+    color: rgba(128, 128, 128, 0.959);
+    font-family: haihai;
+    font-size: 2.3em;
+}
+.g-2-820{
+    color: rgb(0, 0, 0);
+    font-family: haihai;
+    font-size: 3.4em;
+}
+
+.sec1820 h1 {
+    font-family: haihai;
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+}
+.sec2820 {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+.sec2820 div {
+    box-sizing: border-box;
+    width: 60%;
+    margin: 5em 22em;
+}
+.sec2820 div h1{
+    font-size: 3.5em;
+    font-weight: lighter;
+}
+.sec2820 div p{
+    color: rgb(96, 97, 99);
+    font-size: 1.8em;
+}
+.sec2820 div video{
+    width: 100%;
+}
+.sec3820{
+    margin: 5em 12em;
+}
+.sec3820 h1{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(18, 18, 155);
+    font-size: 2.1em;
+    font-weight: 500;
+}
+.s3-820{
+    display: flex;
+}
+.s3-1820{
+    width: 25%;
+    margin: 1.5em;
+    box-shadow:  0 0 1em gray;
+    padding: .5em 1em;
+    border-radius: 1em;
+    transition: .4s ease;
+}
+.s3-1820 h5{
+    color: rgb(96, 97, 99);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+}
+.s3-1820 h1{
+    font-weight: 700;
+}
+.s3-1820:hover{
+    transform: scale(1.1);
+    background-color: #574279;
+}
+.sec4820{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5em 12em;
+}
+.s4-1-820{
+    width: 100%;
+    border-radius: 1em;
+    background-color: #fcfcfcef;
+}
+.s4-2-820{
+    margin-top: 2.5em;
+    width: 100%;
+    height: 5em;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgba(211, 211, 253, 0.897);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    font-weight:500;
+    padding: 0 30%;
+}
+.sec4820 h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    font-weight: 500;
+    color: purple;
+}
+.s4-2-820 img{
+    width: 3em;
+    height: 2em;
+    margin: .5em;
+}
+.s4-2-820 span{
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 1em;
+    background-color: rgb(207, 197, 197);
+    margin: 0 .5em;
+    width: 3em;
+    padding: .5em .7em;
+    font-size: 1.5em;
+}
+.s4-2-820:hover{
+    background-color: rgb(207, 197, 197);
+}
+.sec5820{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5em 12em;
+}
+.s5-2-820 {
+    box-sizing: border-box;
+    width: 40%;
+    margin: 30px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow:  0 0 30px gray;
+    border-radius: 2em;
+    padding: 1.5em;
+    font-size: 1.5em;
+    color: #635f5f;
+    height: 40hv;
+}
+.s5-2-820 img{
+    width: 80%;
+}
+.s5-1-820{
+    display: flex;
+}
+.sec5820 a{
+    text-decoration:none;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: purple;
+}
+.sec5820 a:hover{
+    color: blue;
+
+}
